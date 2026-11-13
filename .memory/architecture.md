@@ -128,10 +128,11 @@ hippo-agents-test8/
 ## Assumptions
 
 <!-- assumption-list:start -->
-- [ASSUME-0001](assumptions/ASSUME-0001-dotnet8-target-runtime.md): Target .NET 8 LTS runtime for core services (status: validated)
-- [ASSUME-0002](assumptions/ASSUME-0002-postgresql-database.md): Use PostgreSQL as primary relational database (status: validated)
-- [ASSUME-0003](assumptions/ASSUME-0003-gds-wcag-accessibility.md): Adhere to WCAG 2.2 AA and GDS design tokens (status: validated)
-- [ASSUME-0004](assumptions/ASSUME-0004-github-actions-cicd.md): Use GitHub Actions for continuous integration and delivery (status: validated)
+- [ASSUME-0001](assumptions/ASSUME-0001-dotnet8-target-runtime.md): Target .NET 8 LTS runtime for core services (validated)
+- [ASSUME-0002](assumptions/ASSUME-0002-postgresql-database.md): Use PostgreSQL as primary relational database (validated)
+- [ASSUME-0003](assumptions/ASSUME-0003-gds-wcag-accessibility.md): Adhere to WCAG 2.2 AA and GDS design tokens (validated)
+- [ASSUME-0004](assumptions/ASSUME-0004-github-actions-cicd.md): Use GitHub Actions for continuous integration and delivery (validated)
+- [ASSUME-0005](assumptions/ASSUME-0005-hello-world-internal-use.md): Hello World endpoint is for internal verification and smoke testing (unresolved)
 <!-- assumption-list:end -->
 
 The save_adr and save_assumption tools fill these lists. Do not edit between the markers.

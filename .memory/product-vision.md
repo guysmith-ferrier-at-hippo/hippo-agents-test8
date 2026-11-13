@@ -123,4 +123,17 @@ Public and enterprise organizations must build compliant digital services that m
 - [GDS Design System Documentation](https://design-system.service.gov.uk)
 - [.NET 8 Enterprise Architecture Guidance](https://learn.microsoft.com/en-us/dotnet/architecture/)
 - [Project Assumptions Index](.memory/assumptions/)
-- [Specification Conventions](.memory/specification-conventions.md)
+
+
+---
+
+## 13. Value Rule Set
+
+> _The criteria or rules used to evaluate whether features should proceed to development._
+
+| Rule / Criterion | Description | Minimum Threshold for Go |
+|------------------|-------------|--------------------------|
+| **Delivery Velocity** | Improves the speed or ease with which teams can build and deploy services. | Positive impact |
+| **Platform Reliability** | Enhances the uptime, observability, or structural integrity of the platform. | Positive impact |
+| **Accessibility & Compliance** | Helps meet WCAG 2.2 AA or other statutory requirements. | No negative impact |
+| **Strategic Alignment** | Aligns with the core vision of standardizing public service delivery. | Medium |
